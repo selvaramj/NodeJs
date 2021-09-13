@@ -1,0 +1,17 @@
+.main-wrapper {
+  flex-grow: 1;
+}
+.list-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.product-wrapper {
+  list-style: none;
+}
+h1 {
+  color: brown;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,13 @@
+<header class="header-wrapper">
+  <nav class="nav-wrapper">
+    <ul class="nav-link-items">
+      <li><a href="/">Logout</a></li>
+      <li>
+        <a
+          href="<%= isLogin ?'/product/view-product' : '/product/add-product' %>"
+          ><%= isLogin ? 'View' : 'Add' %> Product</a
+        >
+      </li>
+    </ul>
+  </nav>
+</header>

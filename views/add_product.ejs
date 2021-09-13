@@ -1,0 +1,26 @@
+    <%- include partials/head %> 
+    <link rel="stylesheet" href="/css/add_product.css"  async/>
+  </head>
+
+  <body>
+    <%- include partials/head %> 
+    <main class="main-wrapper">
+      <%- include partials/navigation %> 
+      <h1 class="page-title">Add New Product</h1>
+      <form
+        class="form-wrapper"
+        action="/product/ordered-product"
+        method="POST"
+      >
+        <label class="form-label" for="product">Enter New Product</label>
+        <input
+          type="text"
+          name="product"
+          class="form-input"
+          autocomplete="new-password"
+          id="product"
+          required
+        />
+        <button class="submit-button" type="submit">Add Product</button>
+      </form>
+      <%- include partials/end %> 

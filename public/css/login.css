@@ -1,0 +1,11 @@
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.page-title-des {
+  color: lightcoral;
+}

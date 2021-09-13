@@ -1,0 +1,38 @@
+    <%- include partials/head %> 
+    <link rel="stylesheet" href="/css/login.css" />
+  </head>
+
+  <body>
+    <main class="main-wrapper">
+      <h1 class="page-title">Grow More Quality Products center</h1>
+      <h2 class="page-title-des">
+        Login here. <span style="color: green" ;>✔</span>
+      </h2>
+      <form class="form-wrapper" method="post" action="/login/user">
+        <div class="form-item">
+          <label class="form-input-label" for="user-name">User ID</label><br />
+          <input
+            type="text"
+            id="user-name"
+            name="user_name"
+            autocomplete="off"
+            required
+            class="form-input"
+          /><br />
+        </div>
+        <div class="form-item">
+          <label class="form-input-label" for="user-password">Password</label
+          ><br />
+          <input
+            type="password"
+            id="user-password"
+            name="user_password"
+            autocomplete="off"
+            required
+            class="form-input"
+          /><br />
+        </div>
+        <button type="submit" class="submit-button">Log In</button>
+      </form>
+      <%- include partials/end %> 
+    
